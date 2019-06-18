@@ -5,12 +5,6 @@ Run the script directly without option
 ```sh
 [hmcmanager@M257-/home/hmcmanager]./trace.sh
 ==> hmcdebuginfo ...
-ipcs: semctl(GETVAL) failed: Permission denied
-ipcs: semctl(GETVAL) failed: Permission denied
-ipcs: semctl(GETVAL) failed: Permission denied
-ipcs: semctl(GETVAL) failed: Permission denied
-ipcs: semctl(GETVAL) failed: Permission denied
-./trace.sh: line 19: Gathering: command not found
 ==> hmcdebuginfo ... done
 ==> create /tmp/yj directory ...
 ==> create /tmp/yj directory ... done
