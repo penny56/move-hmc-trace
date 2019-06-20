@@ -36,8 +36,10 @@ then
     `cp /ffdc/trace/iqzdtrac.trm $workDir`
     zipname="iqzdtrac-"$hostname".trm.gz"
     `tar -zcvPf $workDir$zipname ${workDir}iqzdtrac.trm`
+    echo "move and tar iqzdtrac.trm ... done"
+else
+    echo "move and tar iqzdtrac.trm ... file not exist"
 fi
-echo "move and tar iqzdtrac.trm ... done"
 sleep 1s
 
 # move and tar the iqyy log, generated from hmcdebuginfo
