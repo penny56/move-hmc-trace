@@ -1,4 +1,4 @@
-# move
+# move hmc trace
 Run the hmcdebuginfo, then move and tar the log files
 ### Quickstart
 Run the script directly without option
